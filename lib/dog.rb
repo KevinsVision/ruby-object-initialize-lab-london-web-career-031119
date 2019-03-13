@@ -7,8 +7,8 @@ end
 class Dog
   def initialize(breed, second)
     @breed = breed
-    if breed == none
-      return puts "Mutt"
+    if breed == nil
+      puts "Mutt"
     end
   end
 end
