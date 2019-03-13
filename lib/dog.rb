@@ -5,10 +5,8 @@ class Person
 end
 
 class Dog
-  def initialize(breed, second)
+  def initialize(breed, second = "Mutt")
     @breed = breed
-    if second == nil
-      puts "Mutt"
-    end
+    @second = second
   end
 end
