@@ -5,8 +5,8 @@ class Person
 end
 
 class Dog
-  def initialize(breed, none = "Mutt")
+  def initialize(name, breed = "Mutt")
+    @name = name
     @breed = breed
-    @none = none
   end
 end
