@@ -10,7 +10,7 @@ class Dog
     if second == nil
       puts "Mutt"
     else
-      @breed = breed
+      puts @breed = breed
     end
   end
 end
